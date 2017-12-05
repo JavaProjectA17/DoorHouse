@@ -1,20 +1,20 @@
 package com.doorshouse;
 
 public class Shop {
-    public Shop(Product product, Staff staff, Stock stock, Customer customer, Finance finance, Transport transport, Supplier supplier){
-        this.product = product;
+    public Shop(Product[] products, Staff[] staff, Stock[] stocks, Customer[] customers, Finance finance, Transport[] transports, Supplier[] suppliers){
+        this.products = products;
         this.staff = staff;
-        this.stock = stock;
-        this.customer = customer;
+        this.stocks = stocks;
+        this.customers = customers;
         this.finance = finance;
-        this.transport = transport;
-        this.supplier = supplier;
+        this.transports = transports;
+        this.suppliers = suppliers;
     }
-    private Product product;
-    private Staff staff;
-    private Stock stock;
-    private Customer customer;
+    private Product[] products;
+    private Staff[] staff;
+    private Stock[] stocks;
+    private Customer[] customers;
     private Finance finance;
-    private Transport transport;
-    private Supplier supplier;
+    private Transport[] transports;
+    private Supplier[] suppliers;
 }
