@@ -1,3 +1,5 @@
+package com.doorshouse;
+
 public class Customer {
     public Customer(String name,String address, int numberOfPhone){
         this.name = name;
@@ -8,3 +10,4 @@ public class Customer {
     private String address;
     private int numberOfPhone;
 }
+

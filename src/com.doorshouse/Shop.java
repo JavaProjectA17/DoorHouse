@@ -1,12 +1,14 @@
+package com.doorshouse;
+
 public class Shop {
     public Shop(Product product, Staff staff, Stock stock, Customer customer, Finance finance, Transport transport, Supplier supplier){
-      this.product = product;
-      this.staff = staff;
-      this.stock = stock;
-      this.customer = customer;
-      this.finance = finance;
-      this.transport = transport;
-      this.supplier = supplier;
+        this.product = product;
+        this.staff = staff;
+        this.stock = stock;
+        this.customer = customer;
+        this.finance = finance;
+        this.transport = transport;
+        this.supplier = supplier;
     }
     private Product product;
     private Staff staff;
